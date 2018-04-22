@@ -1,0 +1,27 @@
+html,
+body {
+  background-color: #ffeead;
+  margin: 10px;
+}
+.wrapper > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+  color: #ffeead;
+}
+
+.wrapper > div:nth-child(1n) {
+  background-color: #96ceb4;
+}
+.wrapper > div:nth-child(3n) {
+  background-color: #88d8b0;
+}
+.wrapper > div:nth-child(2n) {
+  background-color: #ff6f69;
+}
+
+.wrapper > div:nth-child(4n) {
+  /* background-color: #ddd; */
+  background-color: #ffcc5c;
+}

@@ -1,0 +1,24 @@
+{
+  "name": "hengwujun-css3",
+  "version": "1.0.0",
+  "description": "this is my css3 testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hengwujun128/css3.git"
+  },
+  "author": "hengwujun128@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hengwujun128/css3/issues"
+  },
+  "homepage": "https://github.com/hengwujun128/css3#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.11",
+    "style-loader": "^0.21.0",
+    "webpack-dev-server": "^3.1.3"
+  }
+}
