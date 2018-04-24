@@ -1,0 +1,10 @@
+.wrapper {
+  display: grid;
+  /* 2 rows(行高) and 3 coloumns(列宽) */
+  /* grid-template-columns: 100px auto 100px; */
+  /* fraction unit */
+  grid-template-columns: repeat(3, 1fr);
+  /* grid-template-rows: 50px 50px; */
+  grid-template-rows: repeat(2, 100px);
+  grid-gap: 5px;
+}
